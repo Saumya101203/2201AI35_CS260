@@ -4,7 +4,7 @@ CREATE TABLE departments (
     department_name VARCHAR(255),
     location VARCHAR(255),
     manager_id INT,
-    FOREIGN KEY (manager_id) REFERENCES employees(emp_id) -- Corrected field name
+    FOREIGN KEY (manager_id) REFERENCES employees(emp_id)
 );
 
 INSERT INTO departments (department_id, department_name, location, manager_id)
