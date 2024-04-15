@@ -2,6 +2,8 @@
 -- 1.	The .sql files are run automatically, so please ensure that there are no syntax errors in the file. If we are unable to run your file, you get an automatic reduction to 0 marks.
 -- Comment in MYSQL 
 -- Create students table
+create database tut6;
+use tut6
 CREATE TABLE students (
     student_id INT PRIMARY KEY,
     first_name VARCHAR(50),
